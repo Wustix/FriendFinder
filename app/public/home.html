@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<title>Home Page</title>
+	<title>FriendFinder</title>
 
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+	 crossorigin="anonymous">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
 </head>
+
 <body>
 
 	<div class="container">
 
-		<div class="jumbotron" style="background-color:rgb(139, 148, 91);">
-			<h1 class="text-center"><span class="glyphicon glyphicon-cutlery"></span>Friend Finder</h1>
+		<div class="jumbotron">
+			<h1 class= "text-center"><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
 			<hr>
 			<h2 class="text-center">Answer questions, find friends</h2>
 			<br>
 			<h2 class="text-center">It doesn't get easier to meet new people!</h2>
 
 			<div class="text-center">
-				<a href="/survey"><button type="button" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-phone-alt"></span> Go To Survey</button></a>
+				<a href="/survey">
+					<button type="button" class="btn btn-lg btn-danger">
+						<span class="glyphicon glyphicon-phone-alt"></span> Go To Survey</button>
+				</a>
 			</div>
 
 		</div>
 
-		<div>
-			<img id="bestFriendPhoto" src="https://i.pinimg.com/474x/3b/86/01/3b86011d952bdf8d70880eaa280bf6fa--s-movies-series-movies.jpg">
-		</div>
-
-    <footer class="footer">
-      <div class="container">
-	        <p><a href="/Table">API Table Link</a> | <a href="waitlist">API Wait List</a></p>
-      </div>
-    </footer>
+		<footer>
+			<div class="container">
+				<a href="/api/friends">Discover Friends API</a>
+				<span>|</span>
+				<a href="https://github.com/Wustix/FriendFinder">GitHub Repo</a>
+			</div>
+		</footer>
 
 	</div>
 
 
 </body>
+
 </html>
